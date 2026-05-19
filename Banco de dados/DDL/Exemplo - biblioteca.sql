@@ -180,6 +180,7 @@ id_emprestimo INT NOT NULL,
 
 	PRIMARY KEY (id_emprestimo, id_cliente)
 
+);
 -- =============================================== 
 -- MODIFICANDO A TABELA Clientes depois de criada 
 -- =============================================== 
