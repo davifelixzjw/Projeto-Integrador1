@@ -1,0 +1,20 @@
+/* Modelo de Caixa (Box Modelo) */
+
+/*
+Todo elemento HTML é tratado com uma "caixa", 
+composta por:
+
+-> content: conteúdo principal;
+-> padding: espaço interno entre o conteúdo e a borda;
+-> border: linha que envolve o elemento
+-> margin: espaço externo entre elementos;
+
+*/
+
+.caixa {
+    width: 250px; /* Largura da Caixa.*/
+    padding: 20px; /* Espaço Interno */
+    border: 10px solid #000; /* Borda (tamanho, tipo e forma) */
+    margin: 25px 40px; /*Espaçamento externo*/
+    background-color: blueviolet;
+}
