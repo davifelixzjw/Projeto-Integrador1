@@ -17,25 +17,7 @@ class Carro:
         # self.velocidade = self.velocidade + aumento 
         self.velocidade += aumento
 
-        print(f"O carro acelerou para {self.velocidade} km/h")
-
-    #Metodo frear
-    def frear(self, reducao):
-        # self.velocidade = self.velocidade - reducao 
-        self.velocidade -= reducao
-
-        print(f"O carro freou para {self.velocidade} km/h")
-
-    # Método para exibir informações
-    def exibir_info(self):
-        print("=== INFORMAÇÕES DO CARRO ===")
-
-        # Exibe os atributos do objeto
-        print(f"Marca: {self.marca}")
-        print(f"Modelo: {self.modelo}")
-        print(f"Ano: {self.ano}")
-        print(f"Velocidade Atual: {self.velocidade}")
-
+        print(f"O carro acelerou para{self.velocidade} km/h")
 
 
 # Criando um objeto da Classe Carro
